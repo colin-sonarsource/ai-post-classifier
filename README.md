@@ -14,7 +14,7 @@ This Python script classifies forum posts by leveraging OpenAI's  API. It reads 
 ## Prerequisites
 
 - Python 3.6+
-- The required Python packages listed in [requirements.txt](/Users/colin/Source/ai-post-classifier-validation/requirements.txt):
+- The required Python packages listed in requirements.txt
   - `openai`
   - `pandas`
 
@@ -31,3 +31,11 @@ Run the script from the command line with the following arguments:
 * prompt_file: Path to the text file containing the classification prompt.
 * csv_file: Path to the CSV file containing forum posts.
 * --models: List of OpenAI models to use. Provide model names separated by spaces.
+
+To execute the script, open your terminal, navigate to the project directory, and run a command similar to the following:
+
+```sh
+python3 classify.py promptfile.txt posts.csv --models gpt-4o-2024-08-06 o3-mini
+```
+
+Replace promptfile.txt and posts.csv with the appropriate paths to your prompt and CSV files, and specify the models you wish to use.
