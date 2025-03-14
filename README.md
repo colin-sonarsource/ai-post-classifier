@@ -32,6 +32,8 @@ Run the script from the command line with the following arguments:
 * csv_file: Path to the CSV file containing forum posts.
 * --models: List of OpenAI models to use. Provide model names separated by spaces.
 
+An OpenAI token must be configured in your environment using the `OPENAI_API_KEY` environment variable.
+
 To execute the script, open your terminal, navigate to the project directory, and run a command similar to the following:
 
 ```sh
