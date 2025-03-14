@@ -19,10 +19,6 @@ def classify_post(model, prompt, post):
     """
     Send the prompt plus the post to the OpenAI API using the given model
     and return the classification result.
-
-    Uses:
-      - the provided model,
-      - a max_tokens parameter of 700.
     """
     request_payload = {
         "model": model,
